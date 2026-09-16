@@ -1,0 +1,2 @@
+# Treat macro-enabled Excel workbooks as binary files
+*.xlsm binary
