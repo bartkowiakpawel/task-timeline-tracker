@@ -4,6 +4,8 @@ A lightweight Excel/VBA task tracking tool with weekly timelines, update history
 
 > **Track what happened, not just how long it took.**
 
+[Download the ready-to-use Excel workbook](task_timeline_tracker.xlsm)
+
 ## Why this exists
 
 Sometimes a full project-management platform is unnecessary, but a simple task list is not enough. This workbook is designed for lightweight BA / PM / transformation / operations workflows where you want to understand:
@@ -32,6 +34,22 @@ The workbook keeps source data simple and generates a visual weekly timeline wit
 - Click a task in `TRACKER` to filter `UPDATES`
 - Source sheets are read-only from the timeline-generation macro
 - Built-in validation before timeline generation
+
+## Screenshots
+
+### TRACKER and UPDATES side by side
+
+![TRACKER and UPDATES side by side](screenshots/tracker-updates-side-by-side.jpg)
+
+### Automatic filtering of UPDATES
+
+![Automatic filtering of UPDATES](screenshots/updates-auto-filter.jpg)
+
+### Generated timeline with hover note
+
+![Generated timeline with hover note](screenshots/timeline-with-hover-note.jpg)
+
+More details are available in [`screenshots/README.md`](screenshots/README.md).
 
 ## Workbook structure
 
@@ -100,7 +118,7 @@ Selecting a task in `TRACKER` automatically filters `UPDATES` to related entries
 
 ## Getting started
 
-1. Download `task_timeline_tracker.xlsm`.
+1. Download [`task_timeline_tracker.xlsm`](task_timeline_tracker.xlsm).
 2. Open it in desktop Microsoft Excel.
 3. Enable macros if you trust the workbook and your Excel security policy allows it.
 4. Add or replace sample data in `TRACKER` and `UPDATES`.
@@ -112,9 +130,8 @@ Selecting a task in `TRACKER` automatically filters `UPDATES` to related entries
 
 The VBA source is also included separately in [`src/`](src/) so it can be reviewed without opening the macro-enabled workbook.
 
-## Screenshots
-
-Screenshots will be added in [`screenshots/`](screenshots/) as the public template is refined.
+- [`src/modTimeline.bas`](src/modTimeline.bas) - timeline generation, grouping and validation
+- [`src/TrackerSheet.bas`](src/TrackerSheet.bas) - automatic UPDATES filtering from TRACKER selection
 
 ## Security note
 
