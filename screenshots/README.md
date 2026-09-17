@@ -1,11 +1,23 @@
 # Screenshots
 
-Add public screenshots of the anonymized workbook here.
+The screenshots below use only fake/demo data and show the main workflow of the Task Timeline Tracker.
 
-Suggested images:
+## TRACKER and UPDATES side by side
 
-1. `tracker-and-updates.png` - TRACKER and UPDATES shown side by side.
-2. `timeline.png` - generated weekly timeline with groups and update markers.
-3. `hover-note.png` - example of an update note displayed on hover.
+Recommended day-to-day workspace setup with the `TRACKER` and `UPDATES` sheets opened vertically next to each other.
 
-Keep all screenshots fully anonymized and use only fake/demo data.
+![TRACKER and UPDATES side by side](tracker-updates-side-by-side.jpg)
+
+## Automatic filtering of UPDATES
+
+Selecting a task in `TRACKER` automatically filters the `UPDATES` table to show only entries related to that task. Clicking outside the task list removes the filter.
+
+![Automatic filtering of UPDATES](updates-auto-filter.jpg)
+
+## Generated timeline with hover note
+
+The generated weekly timeline shows grouped tasks, waiting and active periods, update markers, and detailed notes available on hover.
+
+![Generated timeline with hover note](timeline-with-hover-note.jpg)
+
+All screenshots are fully anonymized and use fictional data only.
